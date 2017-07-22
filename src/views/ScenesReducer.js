@@ -154,7 +154,7 @@ export default function ScenesReducer(
   staleScenes.forEach(mergeScene);
   freshScenes.forEach(mergeScene);
 
-  nextScenes.sort(compareScenes);
+  // nextScenes.sort(compareScenes);
 
   let activeScenesCount = 0;
   nextScenes.forEach((scene: *, ii: *) => {
